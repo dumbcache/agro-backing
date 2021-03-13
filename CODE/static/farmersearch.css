@@ -1,0 +1,319 @@
+body{
+    background: linear-gradient(rgba(0, 7, 7, 0.6),rgba(0,0,0,0.1)), url("back1.jpg");
+    /* height: 100vh; */
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+
+
+.wrapper
+{
+    width: 100%;
+    padding-right: 100px;
+    margin:auto;
+    /* position: fixed; */
+    top: 0em;
+}
+header
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+.nav-area li{
+    display: inline-block;
+  }
+div.dropdown-menu{
+  background-color: rgba(207, 104, 19, 0.733);
+}
+.nav-area li a{
+  
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: rgba(214, 139, 77, 0.733);
+    color: #fff
+}
+.logo{
+  padding: 10px 0px 0px 40px;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    border-radius: 5em;
+}
+
+
+
+
+#main{
+    padding: 2em 2em 2em 2em;
+  }
+h1{
+    /* position: fixed; */
+    margin-left: 0em;
+    padding-top: 0.7em;
+    z-index: 1;
+    max-width: 500px;
+    color: rgb(255, 218, 56);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+h5{
+    padding-top: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+input,select,textarea{
+    padding: 2px 2px;
+    border-radius: 0.5em;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+}
+#container-1,#container-2{
+    top: 2em;
+    float: left;
+    box-shadow: cornsilk;
+    box-shadow: 1px 1px 1px 1px rgb(59, 221, 100);
+    background: linear-gradient(rgba(0, 7, 7, 0.3),rgba(0,0,0,0.1)), url("login.gif");
+    background-size: cover;
+    border-style: ridge;
+    border-radius: 2em;
+    border: 2px solid rgb(69, 199, 199);
+    font-weight: bold;
+    box-sizing: border-box; 
+    height: 500px;  
+}
+  #container-1{
+    width: 37%;
+    padding-left: 2em;
+  }
+  #container-2{
+     display: none; 
+    background: linear-gradient(rgba(0, 7, 7, 0.3),rgba(0,0,0,0.1)), url("reg1.gif");
+    background-size: cover;
+    width: 60%; 
+    margin-left: 2em;
+    /* overflow-y: scroll; */
+  }
+  #container-2-1{
+    height: 400px;
+    overflow-y: scroll;
+  }
+  #container-2-2{
+    height: 250px;
+    overflow-y: scroll;
+  }
+  #container-3{
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: cornsilk;
+    width: 100%;
+    display: none;
+    clear: both;
+    top: 1em;
+    min-height: 100%;
+    box-shadow: 1px 1px 1px 1px rgb(59, 221, 100);
+    /* background: linear-gradient(rgba(0, 7, 7, 0.3),rgba(0,0,0,0.1)), url("services.gif"); */
+    background-color: rgb(222, 120, 31);
+    background-size: cover;
+    border-style: ridge;
+    border-radius: 2em;
+    border: 2px solid rgb(69, 199, 199);
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    /* margin-bottom: 0.5em; */
+    /* overflow-y: scroll; */
+  }
+  #container-3-1{
+    box-sizing: border-box;
+    max-height: 89%;
+    overflow-y: scroll;
+    padding-top: 1.5em;
+  }
+
+  #container-1:hover,#container-2:hover,#container-3:hover{
+    border:1px solid yellow;
+    box-shadow: 4px 2px 2px 2px rgba(245, 255, 106, 0.801);
+  
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: yellow;
+  }
+  .inner{
+      padding-left: 4em;
+  }
+  #filter{
+      margin: 1em;
+      background-color: rgb(24, 140, 185);
+      font-weight: bold;
+  }
+  hr{
+      background-color: black;
+      margin: 1em;
+  }
+  #end{
+      margin-left: 1.4em;
+  }
+
+
+
+  /* farmerslist page css design */
+#farmerlist > .mode {
+    margin: 0.5em;
+    padding: 0.5em;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/* #farmerlist > div:nth-child(odd) {
+  background-color: turquoise;
+} */
+#farmerlist {
+  padding-top: 1em;
+    padding-left: 5em;
+    box-sizing: border-box;
+}
+.mode > div{
+  display: inline;
+}
+.mode{
+  border:1px solid rgb(58, 56, 56);
+  border-radius: 5em;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.mode:hover{
+  border:1px solid rgb(182, 214, 224);;
+  box-shadow: 1px 1px  rgb(182, 214, 224);
+  background-color: rgba(54, 51, 51, 0.219);
+}
+.mode:active{
+  background-color: rgb(182, 214, 224);
+}
+#dummy{
+  height: 40;
+  width: 40;
+  border-radius: 10em;
+  margin: 0.1em;
+ }
+
+
+/* farmersinfo page css design */
+#profile {
+  float: left;
+    height: 100;
+    width: 100;
+    border-radius: 8em;
+    object-fit: cover;
+    margin: 2em;
+}
+
+.main4{
+  background: linear-gradient(rgba(0, 7, 7, 0.3),rgba(0,0,0,0.1)), url("hello.jpg");
+  background-size: cover;
+  text-align: center;
+  display: none; 
+  position: absolute;
+  z-index: 2; 
+  left: 200;
+  top: 300;
+  width: 400px; 
+  height: auto; 
+  overflow: auto; 
+  /* background-color: rgb(0,0,0);  */
+  background-color: rgba(0,0,0,0.4);
+  padding: 2em;
+  border-radius: 3em;
+}
+.main5 {
+  position: absolute; 
+  /* z-index: 1;  */
+  left: 325;
+  top: 250;
+}
+.main6 {
+  position: absolute; 
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main1{
+  float: left;
+}
+.main2{
+  clear: both;
+}
+.main3 > div{
+  float: left;
+  padding-right: 0.5em;
+}
+.vertical-line{
+  position: absolute;
+  left: 30%;
+  display: inline-block;
+  border-left: 1px solid rgb(0,0,0);
+  height: 80%;
+}
+
+.farmerinfo{
+  float: left;
+  width: 29%;
+}
+.main7{
+float: left;
+width: 70%;
+}
+.myChart1,.myChart2{
+  display: inline-block;
+  width: 33%;
+  height: 250;
+}
+.myChart3{
+  float: left;
+  width: 33%;
+  height: 250px;
+}
+.myChart41{
+  clear: both;
+  width: 40%;
+  float: left;
+  height: 350px;
+  padding: 1em;
+}
+.myChart42{
+  width: 60%;
+  float: left;
+  height: 350px;
+  padding: 1em;
+}

@@ -1,0 +1,134 @@
+body{
+  margin: auto;
+  padding: 0;
+  background: linear-gradient(rgba(0, 7, 7, 0.6),rgba(0,0,0,0.1)), url("back1.jpg");
+  background-position: relative;
+  background-size: cover;
+  padding: 1em 1em 1em 1em;
+  margin:1em 1em 1em 1em;    
+}
+
+
+
+.wrapper
+{
+    width: 100%;
+    padding-right: 100px;
+    margin:auto;
+    position: fixed;
+    top: 0em;
+    z-index: 1;
+}
+header
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+.nav-area li{
+    display: inline-block;
+  }
+div.dropdown-menu{
+  background-color: rgba(207, 104, 19, 0.733);
+}
+.nav-area li a{
+  
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: rgba(214, 139, 77, 0.733);
+    color: #fff
+}
+.logo{
+  padding: 10px 0px 0px 40px;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    border-radius: 5em;
+}
+.title{
+  position: fixed;
+  margin-left: 200px;
+  padding-top: 0.3em;
+  z-index: 1;
+  max-width: 500px;
+  color: rgb(255, 218, 56);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+
+
+
+h2{
+    color: burlywood;
+   position: relative;
+   top: 100px;
+    font-size: 30px;
+    font-family: 'Karla';
+    font-weight: bold;
+}
+p{
+  position: relative;
+  top: 100px;
+  color: aquamarine;
+}
+form{
+  z-index: 1;
+  position: relative;
+  left: 350px;
+  top:100px;
+  margin: 0em;
+  width: 400px;
+  padding: 2em;
+}
+.container{
+  height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    /* padding: 12px; */
+    border: 1px solid #ccc;
+    /* margin-top: 6px;
+    margin-bottom: 16px; */
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1em;
+   }
+  input,select,textarea{
+    background: transparent;
+    color: aquamarine;
+    margin: 0.5em;
+    padding-left: 1em;
+    border-radius: 2em;
+    outline: none;
+  }
+  input::placeholder,textarea::placeholder{
+    color: aquamarine;
+  }
+  

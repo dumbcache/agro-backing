@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgba(0,0,0);
+  }
+#footer{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  padding-top: 1em;
+  background-color: rgba(0,0,0);
+  min-height: 100px;
+}
+#footer li{
+  list-style-type: none;
+}
+#footer li > a{
+
+  color: black;
+  list-style-type: none;
+  padding: 5px 20px;
+  font-family: poppins;
+  font-size: 14px;
+}
+.wrapper
+{
+    width: 100%;
+    padding-right: 100px;
+    margin:auto;
+    position: fixed;
+    top: 0em;
+    z-index: 1;
+}
+
+header
+{
+    background: linear-gradient(rgba(0, 7, 7, 0.6),rgba(0,0,0,0.1)), url("back1.jpg");
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area
+{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+.nav-area li{
+    display: inline-block;
+  }
+div.dropdown-menu{
+  background-color: rgba(207, 104, 19, 0.733);
+}
+.nav-area li a{
+  
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: rgba(214, 139, 77, 0.733);
+    color: #fff
+}
+.logo{
+  padding: 10px 0px 0px 40px;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+    border-radius: 5em;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 19% 30%;
+    text-align: center;    
+}
+.welcome-text h1{
+     text-align: center;
+    color: rgb(226, 170, 15);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.title{
+  position: fixed;
+  margin-left: 5em;
+  margin-top: 0.4em;
+  padding-top: 0.7em;
+  z-index: 1;
+  max-width: 500px;
+  color: rgb(255, 218, 56);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+
+
+
+/* slide show css */
+/* .slider{
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+  height: 400px;
+  width: 1200px;
+  background-color: #bbb;
+}
+.slide-image{
+
+  width: auto;
+  height: 400px;
+  margin-left: 0em;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  -webkit-animation-timing-function: cubic-bezier(0.75, 0.90, 0.17, 1);
+}
+.img-container{
+  width: auto;
+  position: relative;
+  max-width: 100%;
+  float: right;
+}
+.img-resize{
+  height: 400px;
+  width: 450px;
+  padding-right: 1em;
+ }
+.img-container :hover{
+  opacity: 0.8;
+}
+@-webkit-keyframes slide_animation{
+  0% {left: -100px;}
+  25% {left: 800px;}
+  50% {right: 800px;}
+  75% {right: 400px;}
+   100% {right: 1000px;}
+}   
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: rgb(236, 236, 136);
+} */

@@ -1,0 +1,134 @@
+#body{
+    background: linear-gradient(rgba(0, 1, 7, 0.7),rgba(0,0,0,0.5)), url("back.jpg");
+    background-size: 120vmax;
+}
+#asses{
+    height: 595px;
+    width: 700px;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow:0 0 5px 5px #888;
+    box-shadow: 0 0 10px 8px #493d26;
+}
+
+/* legend{
+    text:4em;
+} */
+/* .main1{
+    border:3px solid black;
+    box-shadow: 0 0 0 1px black;
+    height:80%;
+} */
+#crop_name{
+    flex-grow:5em;
+    margin-left:2em;
+}
+.taste{
+    margin-top:2em;
+    margin-left: 15.1em;
+}
+input:focus,select:focus{
+    outline:none;
+}
+
+#asses{
+    /* margin-right: 20%; */
+    margin-left:15%;
+}
+h4{
+    text-align: center;
+}
+.arable,.crop_name{
+    display:inline-block;
+}
+/* #crop_name{
+    margin-left:6em;
+} */
+.main1{
+    margin-left:3%;
+    /* margin-bottom:5%; */
+}
+legend{
+    text-align:center;
+    color:wheat;
+}
+#asses select{
+    /* padding-left:1.3em; */
+    height:2.5em;
+    width:13em;
+    border-radius:12px;
+}
+#diff_crops label{
+    height:2.5em;
+    width:13em;
+    border-radius: 12px;
+}
+/* #crop_name{
+    float:right;
+} */
+.arable{
+    margin-left:8%;
+    margin-top:1.5em;
+}
+.container-b input{
+    height:2.5em;
+    width:13em;
+    border-radius:12px;
+}
+.container-b{
+    margin-left:16.5em;
+    margin-top:8%;
+}
+/* .container-d select{
+    /* padding-left:1.3em; 
+    height:2em;
+    width:13em;
+    border-radius:12px;
+} */
+.container-d{
+    margin-left:16.5em;
+    margin-top:5%;
+}
+.container-e{
+    margin-left:21%;
+    margin-top:7%;
+}
+input:hover,select:hover{
+    background-color:#786d5f;
+    border:1.5px solid #2c3539;
+}
+
+#Mono input{
+    height:2.5em;
+    width:13em;
+    border-radius:12px;
+}
+#Mono{
+    margin-top:1%;
+    margin-left: 6em;
+}
+#Poly{
+    margin-top:3%;
+    margin-left: 1.5em;
+}
+/* #diff_crops{
+    margin-left:6%;
+
+} */
+#opt-a input,#opt-b input,#opt-c input,#opt-d input{
+    /* padding-left:1.3em; */
+    height:2.5em;
+    width:13em;
+    border-radius:12px;
+    margin-left: 2em;
+    margin-top: 0.7em;
+}
+
+#opt-a,#opt-b{
+    margin-left: 4em;
+}
+#opt-c{
+    margin-left: 1.4em;
+}
+#opt-d{
+    margin-left:2.2em;
+}
