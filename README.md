@@ -2,7 +2,7 @@
 
 --- 
 
-B.Tech final year project  
+B.Tech final year project built using   
 python-flask  
 postgres  
 chart.js
