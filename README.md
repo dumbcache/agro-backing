@@ -2,7 +2,10 @@
 
 --- 
 
-My B.Tech final year project built using   
+My B.Tech final year project and also my first project ever  
+
+##### tech stack  
+
 python-flask  
 postgres  
 chart.js
